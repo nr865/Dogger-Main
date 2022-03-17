@@ -33,19 +33,23 @@ nav span{
 .icon{
     font-size: 2rem;
     font-weight: 600;
-    text-decoration: none;
     color: black;
 }
 ul{
     display: flex;
     gap:80px;
+    list-style-type:none;
 }
-li{
+a{
+    text-decoration: none;
+}
+li a{
     display: inline-block;
+    color: #4a4a4b;
+    font-weight: 600;
     transition: all 350ms;
-    cursor: pointer;
 }
-li:hover{
+li a:hover{
     transition: all 350ms;
     color:#999999;
 }
